@@ -1,0 +1,14 @@
+{
+  "name": "mini-agent-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "精简自包含的 Agent 实验台：自定义模型连接、模型会话、Agent 测试（无认证）",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mini Agent Lab</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark"><img src="/IMG_0001.JPG" alt="头像" /></span>
+          <div>
+            <strong>Mini Agent Lab</strong>
+            <small>会话 · 模型连接 · Agent</small>
+          </div>
+        </div>
+        <nav class="nav" id="nav">
+          <button data-view="chat"><span class="ico">💬</span><span class="label">会话</span></button>
+          <button data-view="connections"><span class="ico">🔌</span><span class="label">模型连接</span></button>
+          <button data-view="agents"><span class="ico">🤖</span><span class="label">Agent</span></button>
+        </nav>
+        <div class="sidebar-foot">本地运行 · 无认证<br />数据保存在 data/store.json</div>
+      </aside>
+      <main class="main" id="main"></main>
+    </div>
+    <div id="toast" class="toast hidden"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
